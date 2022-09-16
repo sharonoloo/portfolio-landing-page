@@ -64,7 +64,11 @@ img {
     text-align: center;
   }
 .image2 {
-    align-items: right;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
 }
 .navbar {
     list-style-type: none;
