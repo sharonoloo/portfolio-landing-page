@@ -15,7 +15,7 @@ ul {
     line-height: 40px;
 }
 a:link {
-    color: red;
+    color: rgb(30, 236, 95);
   }
 a:visited {
     color: green;
