@@ -1,9 +1,9 @@
 h1 {
-    color: blue;
+    color: 79F41F;
     text-align: center;
 }
 h3 {
-    color:blueviolet;
+    color:4F8229;
     text-align: center;
 }
 p {
@@ -11,4 +11,14 @@ p {
 }
 ul {
     line-height: 40px;
+}
+a {
+    color: cyan;
+    text-align: left;
+}
+#index-body-container {
+    background-color: ivory;
+}
+.intro {
+    font-style: italic;
 }
