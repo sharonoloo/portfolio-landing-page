@@ -12,20 +12,29 @@ p {
 ul {
     line-height: 40px;
 }
-a {
-    color: cyan;
-    text-align: left;
-}
+a:link {
+    color: red;
+  }
+a:visited {
+    color: green;
+  }
+a:hover {
+    color: hotpink;
+  }
+a:active {
+    color: blue;
+  }
 #index-body-container {
-    background-color: ivory;
+    background-color:F9FBF8;
 }
 .intro {
     font-style: italic;
 }
 .details {
-    color: 2E6107;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    float:right;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 70%;
 }
 .important {
     color:aquamarine;
@@ -33,8 +42,17 @@ a {
 img {
     float: left;
     margin-right: 10px;
-    border: 2px solid red;
+    border: 2px solid rgb(6, 238, 87);
+    border-radius: 50%;
 }
 .columns {
-
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 70%;
+    padding-bottom: 10px;
 }
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
